@@ -1,0 +1,2 @@
+Name: CancerDetectNet
+Final Accuracy on Test Set: 94.2%
