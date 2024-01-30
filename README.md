@@ -33,4 +33,4 @@ The models architecture consisted of 2 Convolutional Layers, 2 Max Pooling Layer
   - [INbreast Dataset](https://www.kaggle.com/datasets/ramanathansp20/inbreast-dataset)
   - [MIAS Dataset](https://www.kaggle.com/datasets/kmader/mias-mammography)
 - <strong>Papers</strong>
-  - [Link to Paper here]
+  - [Breast Cancer Mammograms Classification Using Deep Neural Network and Entropy-Controlled Whale Optimization Algorithm](https://www.mdpi.com/2075-4418/12/2/557)
