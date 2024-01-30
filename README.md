@@ -17,10 +17,10 @@ The concept of using Neural Networks in the medical field is nothing new. The id
 
 ## Results
 <img src="Figures/Training_2.png">
-The above image shows the plot of the loss of the model over 100 training epochs. The model converged quite quickly, which is typical when using such a large dataset to train on. Below you will also see some more metrics for the model as it was tested throughout it's training.<br />
+The above image shows the plot of the loss of the model, or how far off it was from the correct answer, over 100 training epochs, or episodes. The image also plots the models accuracy, which increases the more time it trains. The model became accurate quite quickly, taking a mere 1.5 hours to fully train, which is typical when using such a large number of images. Below you will also see some more metrics for the model as it was tested throughout it's training. The fully trained model's accuracy on about 5,000 unseen images was an impressive ** 94.2% ** , correctly classifying and diagnosing about 19 out of every 20 mammograms.
+<br />
 <br />
 <img src="Figures/Evaluation_1.png">
-The fully trained model's accuracy on the unseen test set was an impressive 94.2%, correctly classifying and diagnosing about 19 out of every 20 mammograms.
 
 ## Technical Details
 The models architecture consisted of 2 Convolutional Layers, 2 Max Pooling Layers, and 2 Fully Connected Layers. The model took 1.5 hours to train on an NVIDIA 4080. Below is an image of the architecture.
