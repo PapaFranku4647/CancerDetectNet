@@ -6,6 +6,7 @@ CancerDetectNet is a mammogram classifier built with PyTorch. The model uses a C
 - [Introduction](#introduction)
 - [Results](#results)
 - [Technical Details](#technical-details)
+- [Citations](#citations)
 
 
 ## Introduction
@@ -23,5 +24,13 @@ The above image shows the plot of the loss of the model, or how far off it was f
 <img src="Figures/Evaluation_1.png">
 
 ## Technical Details
-The models architecture consisted of 2 Convolutional Layers, 2 Max Pooling Layers, 1 Flatten Layer, and 3 Fully Connected Layers. The model took 1.5 hours to train on an NVIDIA 4080. Below is an image of the architecture.
-<img src="Figures/Model_Visualization_2.png">
+The models architecture consisted of 2 Convolutional Layers, 2 Max Pooling Layers, and 2 Fully Connected Layers. The model took 1.5 hours to train on an NVIDIA 4080. Below is an image of the architecture.
+[Image Here]()
+
+## Citations
+-  <strong>Datasets</strong>
+  - [CBIS Dataset](https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset)
+  - [INbreast Dataset](https://www.kaggle.com/datasets/ramanathansp20/inbreast-dataset)
+  - [MIAS Dataset](https://www.kaggle.com/datasets/kmader/mias-mammography)
+- <strong>Papers</strong>
+  - [Link to Paper here]
