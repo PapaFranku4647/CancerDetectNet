@@ -10,10 +10,9 @@ CancerDetectNet is a mammogram classifier built with PyTorch. The model uses a C
 
 ## Introduction
 The concept of using Neural Networks in the medical field is nothing new. The idea is actually quite popular, because [gaining knowledge and actionable insights from complex data remains a key challenge in transforming health care.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6455466/) The importance of early and accurate breast cancer detection can not be understated, as breast cancer is the [second leading cause of death among women globally.](https://www.cdc.gov/cancer/breast/basic_info/index.htm#:~:text=Except%20for%20skin%20cancer%2C%20breast,cancer%20death%20among%20Hispanic%20women.) This project aims to tackle the classification of mammogram images taken by x-ray machines, and classify them into their respective categories. The categories are Malignant, Benign, and Normal. The model was trained on the images from the [CBIS Dataset](https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset), the [INbreast Dataset](https://www.kaggle.com/datasets/ramanathansp20/inbreast-dataset), and the [MIAS Dataset](https://www.kaggle.com/datasets/kmader/mias-mammography).<br /><br />
-<img src="Augmented_Images/Normal_Pics/109_24_mias.png" width="240"> 
-<img src="Augmented_Images/Malignant_Pics/10_16_inbreast.png" width="240">
-<img src="Augmented_Images/Malignant_Pics/1071_12_cbis.png" width="240">
-<img src="Augmented_Images/Benign_Pics/104_7_mias.png" width="240">
+<img src="Augmented_Images/Normal_Pics/109_24_mias.png"> 
+<img src="Augmented_Images/Malignant_Pics/10_16_inbreast.png">
+<img src="Augmented_Images/Benign_Pics/104_7_mias.png"><br />
 *Examples of Training Images*
 
 ## Results
