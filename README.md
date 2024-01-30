@@ -28,7 +28,7 @@ The models architecture consisted of 2 Convolutional Layers, 2 Max Pooling Layer
 <img src="Figures/Model_Visualization_2.png">
 
 ## Citations
--  <strong>Datasets</strong>
+- <strong>Datasets</strong>
   - [CBIS Dataset](https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset)
   - [INbreast Dataset](https://www.kaggle.com/datasets/ramanathansp20/inbreast-dataset)
   - [MIAS Dataset](https://www.kaggle.com/datasets/kmader/mias-mammography)
