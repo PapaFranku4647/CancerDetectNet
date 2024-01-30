@@ -17,10 +17,7 @@ model.add(Flatten())
 
 model.add(Dense(120))
 model.add(Dense(84))
-model.add(Dense(3))  # Assuming 3 output classes
+model.add(Dense(3))  
 
-# Generate the visualization
-model_image = visualkeras.layered_view(model, spacing=25, legend=True, font=ImageFont.truetype("arial.ttf", size=32))
-
-# Save the visualization to a file
+model_image = visualkeras.layered_view(model, scale_xy=1, spacing=15, legend=True, font=ImageFont.truetype("arial.ttf", size=32))
 model_image.save('model_visualization.png')
