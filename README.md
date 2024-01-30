@@ -4,6 +4,7 @@ CancerDetectNet is a mammogram classifier built with PyTorch. The model uses a C
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Implementation](#implementation)
 - [Results](#results)
 - [Installation](#installation)
 - [Technical Details](#technical-details)
@@ -16,6 +17,10 @@ The concept of using Neural Networks in the medical field is nothing new. The id
 <img src="Augmented_Images/Malignant_Pics/10_16_inbreast.png">
 <img src="Augmented_Images/Benign_Pics/104_7_mias.png"><br />
 *Examples of Training Images*
+
+## Implementation
+The model was coded in Python 3.10 and used PyTorch to train the model. A [paper](https://www.mdpi.com/2075-4418/12/2/557) on Breast Cancer Image Classification was used as a starting point, mainly for inspiration on what datasets are used in the medical industry that I could also use for training.
+
 
 ## Results
 <img src="Figures/Training_2.png">
