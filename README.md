@@ -9,6 +9,7 @@ CancerDetectNet is a mammogram classifier built with PyTorch. The model uses a C
 - [Installation](#installation)
 - [Technical Details](#technical-details)
 - [Citations](#citations)
+- [Next Steps](#next-steps)
 
 
 ## Introduction
@@ -44,3 +45,8 @@ The models architecture consisted of 2 Convolutional Layers, 2 Max Pooling Layer
   - [MIAS Dataset](https://www.kaggle.com/datasets/kmader/mias-mammography)
 - <strong>Papers</strong>
   - [Breast Cancer Mammograms Classification Using Deep Neural Network and Entropy-Controlled Whale Optimization Algorithm](https://www.mdpi.com/2075-4418/12/2/557)
+
+## Next Steps  
+- Continue to Update README for info on project
+- Put Augmentation Images in cloud storage for faster git cloning, then add scripts to download the images.
+- Add Installation steps for people who want to run code/model on local machine.
