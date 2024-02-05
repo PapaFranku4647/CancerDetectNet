@@ -9,6 +9,7 @@ CancerDetectNet is a mammogram classifier built with PyTorch. The model uses a C
 - [Installation](#installation)
 - [Technical Details](#technical-details)
 - [Citations](#citations)
+- [Contributing](#contributing)
 - [Next Steps](#next-steps)
 
 
@@ -86,6 +87,10 @@ Training was conducted on an NVIDIA 4080 GPU, taking approximately 1.5 hours to 
   - [MIAS Dataset](https://www.kaggle.com/datasets/kmader/mias-mammography)
 - <strong>Papers</strong>
   - [Breast Cancer Mammograms Classification Using Deep Neural Network and Entropy-Controlled Whale Optimization Algorithm](https://www.mdpi.com/2075-4418/12/2/557)
+
+## Contributing
+I am eager to form a community around this project. If you've developed a custom-trained model and want to contribute, or if you have any other contributions in mind, please see my [Contributing Guidelines](CONTRIBUTING.md) for more details on how you can participate.
+
 
 ## Next Steps  
 - Hopefully form community around project
