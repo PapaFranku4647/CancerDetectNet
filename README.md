@@ -14,29 +14,34 @@ CancerDetectNet is a mammogram classifier built with PyTorch. The model uses a C
 
 ## Introduction
 The concept of using Neural Networks in the medical field is nothing new. The idea is actually quite popular, because [gaining knowledge and actionable insights from complex data remains a key challenge in transforming health care.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6455466/) The importance of early and accurate breast cancer detection can not be understated, as breast cancer is the [second leading cause of death among women globally.](https://www.cdc.gov/cancer/breast/basic_info/index.htm#:~:text=Except%20for%20skin%20cancer%2C%20breast,cancer%20death%20among%20Hispanic%20women.) This project aims to tackle the classification of mammogram images taken by x-ray machines, and classify them into their respective categories. The categories are Malignant, Benign, and Normal. The model was trained on the images from the [CBIS Dataset](https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset), the [INbreast Dataset](https://www.kaggle.com/datasets/ramanathansp20/inbreast-dataset), and the [MIAS Dataset](https://www.kaggle.com/datasets/kmader/mias-mammography).<br /><br />
-<img src="Augmented_Images/Normal_Pics/109_24_mias.png"> 
-<img src="Augmented_Images/Malignant_Pics/10_16_inbreast.png">
-<img src="Augmented_Images/Benign_Pics/104_7_mias.png"><br />
+<img src="Figures/109_24_mias.png"> 
+<img src="Figures/10_16_inbreast.png">
+<img src="Figures/104_7_mias.png"><br />
 *Examples of Training Images*
 
 ## Implementation
-The model was coded in Python 3.10 and used PyTorch to train the model. A [paper](https://www.mdpi.com/2075-4418/12/2/557) on Breast Cancer Image Classification was used as a starting point, mainly for inspiration on what datasets are used in the medical industry that I could also use for training.
-
+CancerDetectNet was developed using Python 3.10 and PyTorch. The model's training and validation were performed using datasets from CBIS, INbreast, and MIAS, among others, to ensure comprehensive learning and accuracy.
 
 ## Results
-<img src="Figures/Training_2.png">
-The above image shows the plot of the loss of the model, or how far off it was from the correct answer, over 100 training epochs, or episodes. The image also plots the models accuracy, which increases the more time it trains. The model became accurate quite quickly, taking a mere 1.5 hours to fully train, which is typical when using such a large number of images. Below you will also see some more metrics for the model as it was tested throughout it's training. The fully trained model's accuracy on about 5,000 unseen images was an impressive <strong>94.2%</strong>, correctly classifying and diagnosing about 19 out of every 20 mammograms.
-<br />
-<br />
-<img src="Figures/Evaluation_1.png">
-<br />
-<br />
+The model achieved a remarkable accuracy of 94.2% on a validation set of approximately 5,000 unseen images, effectively diagnosing 19 out of every 20 mammograms.
+- Training Time: 1.5 hours on an NVIDIA 4080 GPU
+- Training Epochs: 100
+- Final Accuracy: 94.2%
+
+<img src="Figures/Training_2.png">*Training Loss and Accuracy Over Time*
+
+<img src="Figures/Evaluation_1.png">*Model Evaluation*
 
 ## Installation
 
 ## Technical Details
-The models architecture consisted of 2 Convolutional Layers, 2 Max Pooling Layers, and 2 Fully Connected Layers. The model took 1.5 hours to train on an NVIDIA 4080. Below is an image of the architecture.
-<img src="Figures/Model_Visualization_2.png">
+The model's architecture includes:
+- 2 Convolutional Layers
+- 2 Max Pooling Layers
+- 2 Fully Connected Layers
+Training was conducted on an NVIDIA 4080 GPU, taking approximately 1.5 hours to complete.
+
+<img src="Figures/Model_Visualization_2.png">   *Model Architecture*
 
 ## Citations
 - <strong>Datasets</strong>
@@ -47,6 +52,5 @@ The models architecture consisted of 2 Convolutional Layers, 2 Max Pooling Layer
   - [Breast Cancer Mammograms Classification Using Deep Neural Network and Entropy-Controlled Whale Optimization Algorithm](https://www.mdpi.com/2075-4418/12/2/557)
 
 ## Next Steps  
-- Continue to Update README for info on project
-- Put Augmentation Images in cloud storage for faster git cloning, then add scripts to download the images.
-- Add Installation steps for people who want to run code/model on local machine.
+- Update README with detailed project information and user guides.
+- Provide comprehensive installation and setup instructions for local execution.
