@@ -74,6 +74,7 @@ The model's architecture includes:
 - 2 Convolutional Layers
 - 2 Max Pooling Layers
 - 2 Fully Connected Layers
+
 Training was conducted on an NVIDIA 4080 GPU, taking approximately 1.5 hours to complete.
 
 <img src="Figures/Model_Visualization_2.png">   *Model Architecture*
