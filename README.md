@@ -33,6 +33,41 @@ The model achieved a remarkable accuracy of 94.2% on a validation set of approxi
 <img src="Figures/Evaluation_1.png">*Model Evaluation*
 
 ## Installation
+### For Windows Users:
+
+**Step 1:** Install Python 3.10.6 from the official Python website.
+
+**Step 2:** Install Git from its official website or use your package manager of choice.
+
+**Step 4:** Open cmd using the Windows Start Button: ```cmd```
+
+**Step 3:** Clone the repository: ```git clone https://github.com/PapaFranku4647/CancerDetectNet.git```
+
+**Step 4:** Navigate to the CancerDetectNet directory: ```cd CancerDetectNet```
+
+**Step 5:** Install the required Python dependencies: ```pip install -r requirements.txt```
+
+**To Download Training Images (Requires a Wi-Fi connection):**
+- ```cd Downloading```
+- ```python download_pics.py```
+
+### Using the Model:
+
+To use the model on the downloaded test images, follow these instructions:
+
+**For pre-downloaded or sample images:**
+Execute the provided command scripts or use the Python interface as documented.
+
+**For custom images:**
+Modify the `evaluate_model.py` file to point to your image directory:
+```test_dataset = datasets.ImageFolder(root='../Augmented_Images', transform=test_transform)```
+
+Ensure the directory structure follows this format, with subfolders for each image category:
+- `Normal_Pics`
+- `Benign_Pics`
+- `Malignant_Pics`
+
+Note: Images must be 256x256 grayscale PNG images for compatibility with the model.
 
 ## Technical Details
 The model's architecture includes:
