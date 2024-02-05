@@ -87,5 +87,6 @@ Training was conducted on an NVIDIA 4080 GPU, taking approximately 1.5 hours to 
   - [Breast Cancer Mammograms Classification Using Deep Neural Network and Entropy-Controlled Whale Optimization Algorithm](https://www.mdpi.com/2075-4418/12/2/557)
 
 ## Next Steps  
-- Update README with detailed project information and user guides.
-- Provide comprehensive installation and setup instructions for local execution.
+- Hopefully form community around project
+- Expand datasets and train another, more versatile model
+- Create a site to host results and demos of community created models
